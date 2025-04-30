@@ -3,11 +3,11 @@ The dataset from https://www.kaggle.com/datasets/arshkon/linkedin-job-postings w
 
 Execution Instructions:
 
-  BERT - run pip install transformers datasets torch scikit-learn
-  also had to run pip install --upgrade numpy<2
-  then make sure the complete data file is loaded into the same folder that's opened
-  this is used to make the train/test split
-  run this file but UPDATE THE PATH FOR WHERE TO SAVE THE CSV FILE
-  we then used the generated file to conduct analysis on excel
+  BERT - run pip install transformers datasets torch scikit-learn.
+  Also had to run pip install --upgrade numpy<2.
+  Then make sure the complete data file is loaded into the same folder that's opened.
+  This is used to make the train/test split.
+  Run this file but UPDATE THE PATH FOR WHERE TO SAVE THE CSV FILE.
+  We then used the generated file to conduct analysis on excel.
 
   Linear Regression (baselinechecker) - Before running file, run pip install pandas scikit-learn
