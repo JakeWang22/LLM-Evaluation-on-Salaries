@@ -1,2 +1,12 @@
 # LLM-Evaluation-on-Salaries
 The dataset from https://www.kaggle.com/datasets/arshkon/linkedin-job-postings was used which contains job descriptions and max salaries for job postings on LinkedIn. To evaluate different LLMs, we trained them using the training data file, then had the LLMs predict given the descriptions in the testing data file. We also conducted various baseline models, including a simple linear regression as well as BERT. We evaluated based on the root mean squared error (RMSE), the normalized RMSE, the RMSE improvement, as well as what percent of data points fell within different percentiles away from the actual. To get the BERT sample, instructions can be found in the running bert.py file. Similarly, instructions can also be found in the baselinechecker.py file in order to get the linear regression model. Based on our results, we found that BERT had the lowest root RMSE, Gemini had the greatest proportion of predictions fall near the actual values, and Claude showed the overall worst performance in all categories.
+
+Execution Instructions:
+  BERT - run pip install transformers datasets torch scikit-learn
+  also had to run pip install --upgrade numpy<2
+  then make sure the complete data file is loaded into the same folder that's opened
+  this is used to make the train/test split
+  run this file but UPDATE THE PATH FOR WHERE TO SAVE THE CSV FILE
+  we then used the generated file to conduct analysis on excel
+
+  Linear Regression (baselinechecker) - Before running file, run pip install pandas scikit-learn
