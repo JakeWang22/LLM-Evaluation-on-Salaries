@@ -11,3 +11,7 @@ Execution Instructions:
   We then used the generated file to conduct analysis on excel.
 
   Linear Regression (baselinechecker) - Before running file, run pip install pandas scikit-learn
+
+To Prompt LLMs:
+Type - You are given 80 job descriptions with their maximum yearly salaries in U.S. dollars, followed by 20 new job descriptions without salaries. Learn from the first set and predict the maximum salary for each of the 20 new descriptions. Output a CSV with two columns: "description" and "predicted_max_salary," matching each new description with its predicted salary. Respond only with the completed CSV, no extra text.
+Then, add the training data file and the testing data file and press enter.
